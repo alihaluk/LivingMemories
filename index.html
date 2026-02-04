@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Living Memories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Living Memories</h1>
+            <div class="stats">
+                <span>Moves: <span id="move-count">0</span></span>
+                <button id="restart-btn">Restart Game</button>
+            </div>
+        </header>
+
+        <div id="game-board" class="game-board">
+            <!-- Cards will be generated here -->
+        </div>
+
+        <div id="win-message" class="hidden">
+            <h2>You Win!</h2>
+            <p>Great job!</p>
+            <button id="play-again-btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
